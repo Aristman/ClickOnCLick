@@ -60,8 +60,6 @@ class MainActivity : AppCompatActivity() {
                     brakeLine.setGuidelinePercent(R.id.brakeLine, position)
                     brakeLine.applyTo(gameField)
                 }
-                println(position)
-                delay(50)
             }
         }
     }
